@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "129844616620",
+    "firebase_url": "https://job-hunt-app-75580.firebaseio.com",
+    "project_id": "job-hunt-app-75580",
+    "storage_bucket": "job-hunt-app-75580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129844616620:android:ee271f80f2484e298c2e09",
+        "android_client_info": {
+          "package_name": "com.example.jobhuntapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129844616620-dbirvcqq3nardj43mhdi51pegae7gmui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhuntapp",
+            "certificate_hash": "613df542a27a921c6743267fcb839e3a7f6494cc"
+          }
+        },
+        {
+          "client_id": "129844616620-ub6pkqttqt91eraksl6bskbacj27jkpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb7HeAPhQoEOVshodlyiJpFa_GtwKAoUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129844616620-ub6pkqttqt91eraksl6bskbacj27jkpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129844616620:android:1bb80369939c22f68c2e09",
+        "android_client_info": {
+          "package_name": "com.lakshmimanivannan.jobhuntappserviceproviders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129844616620-ub6pkqttqt91eraksl6bskbacj27jkpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb7HeAPhQoEOVshodlyiJpFa_GtwKAoUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129844616620-ub6pkqttqt91eraksl6bskbacj27jkpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

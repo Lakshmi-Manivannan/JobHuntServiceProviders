@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcceptRequest"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/arrow"
+                android:id="@+id/back_icon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:transitionName="signup_image_view"/>
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:src="@drawable/user" />
+            <TextView
+                android:id="@+id/name_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/bungee"
+                android:text="Username"
+                android:textColor="#000"
+                android:textSize="32sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/brandon_grotesque_light"
+                android:text="Category"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/location_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/brandon_grotesque_light"
+                android:text="Location"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/timestamp_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/antic"
+                android:text="Timestamp"
+                android:textSize="28sp"
+                android:layout_gravity="right"
+                android:gravity="right" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accept Service"
+                android:id="@+id/accept_service"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroung_button"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_margin="20dp" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
